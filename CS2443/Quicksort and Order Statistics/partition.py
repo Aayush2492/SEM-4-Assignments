@@ -15,12 +15,12 @@ def get_optimum_pivot(arr):
         return arr[arr_len // 2]
     
     medians = []
-    for i in range(0, arr_len-(5 - mod_len), 5):
+    for i in range(0, arr_len-(5 - mod_len) + 1, 5):
         arr[i:i+5] = sorted(arr[i:i+5])
         medians.append(arr[i+2])
     if mod_len != 0:
         arr[arr_len - mod_len :] = sorted(arr[arr_len - mod_len:])
-        medians.append(arr_len - mod_len + mod_len // 2)
+        medians.append(arr[arr_len - mod_len + mod_len // 2])
     return get_optimum_pivot(medians)
 
 def partition(arr, p, r, en_obj):

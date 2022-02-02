@@ -16,10 +16,11 @@ def select(arr, p ,r, i, en_obj):
 def main():
     arr = random.sample(range(100), 10)
     rank = 3
-    print("Unsorted:", arr)
-    print("Sorted: ", sorted(arr))
-    print(f"Element at rank {rank} is {select(arr, 0, len(arr)-1, rank, version.DETERMINISTIC_PIVOT)}")
+    # print("Unsorted:", arr)
+    # print("Sorted: ", sorted(arr))
+    # print(f"Element at rank {rank} is {select(arr, 0, len(arr)-1, rank, version.DETERMINISTIC_PIVOT)}")
+    print(sorted(arr)[rank-1] == select(arr, 0, len(arr)-1, rank, version.DETERMINISTIC_PIVOT))
+
 
 if __name__ == "__main__":
     main()
-
