@@ -1,3 +1,9 @@
+# Mac Specific
 **/.DS_Store
-virtualenvEE5606/
 .vscode/
+
+# Unignore all with extensions(for executables with no extension)
+!*.*
+
+# For virtual environment
+virtualenvEE5606/
