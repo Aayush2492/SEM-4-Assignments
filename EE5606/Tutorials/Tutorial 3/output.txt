@@ -1,0 +1,2 @@
+Minimum initial investment is 197.9192218215729 with non-zero outside investments.
+Minimum initial investment is 336.54540328120254 with zero outside investments
