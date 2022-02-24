@@ -1,0 +1,4 @@
+Total number of processes: 140
+Total number of deadline misses: 0
+Total number of successful executions: 140
+Waiting time averaged over all process: 60.714286

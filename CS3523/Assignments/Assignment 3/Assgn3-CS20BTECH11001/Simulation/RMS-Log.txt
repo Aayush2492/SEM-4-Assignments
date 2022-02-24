@@ -1,0 +1,228 @@
+Process 1 : Processing time = 20; Deadline = 50; Period = 50; Repeats: 10 joined at time = 0
+Process 2 : Processing time = 35; Deadline = 75; Period = 75; Repeats: 10 joined at time = 0
+Process 3 : Processing time = 35; Deadline = 100; Period = 100; Repeats: 10 joined at time = 0
+Process 4 : Processing time = 10; Deadline = 125; Period = 125; Repeats: 10 joined at time = 0
+Process 5 : Processing time = 15; Deadline = 25; Period = 25; Repeats: 10 joined at time = 0
+Process 6 : Processing time = 25; Deadline = 35; Period = 35; Repeats: 10 joined at time = 0
+Process 7 : Processing time = 2; Deadline = 10; Period = 10; Repeats: 10 joined at time = 0
+Process 8 : Processing time = 56; Deadline = 100; Period = 100; Repeats: 10 joined at time = 0
+Process 9 : Processing time = 2; Deadline = 20; Period = 20; Repeats: 10 joined at time = 0
+Process 10 : Processing time = 6; Deadline = 30; Period = 30; Repeats: 10 joined at time = 0
+At time 0: Process 7 starts execution
+At time 2: Process 7 completes execution
+At time 2: Process 9 starts execution
+At time 4: Process 9 completes execution
+At time 4: Process 5 starts execution
+At time 10: Process 5 is preempted by process 7. Remaining processing time: 8
+At time 10: Process 7 starts execution
+At time 12: Process 7 completes execution
+At time 12: Process 5 starts execution
+At time 20: Process 5 is preempted by process 7. Remaining processing time: 0
+At time 20: Process 7 starts execution
+At time 22: Process 7 completes execution
+At time 22: Process 9 starts execution
+At time 24: Process 9 completes execution
+At time 24: Process 5 starts execution
+At time 25: Process 5 completes execution
+At time 25: Process 5 starts execution
+At time 30: Process 5 is preempted by process 7. Remaining processing time: 10
+At time 30: Process 7 starts execution
+At time 32: Process 7 completes execution
+At time 32: Process 5 starts execution
+At time 40: Process 5 is preempted by process 7. Remaining processing time: 1
+At time 40: Process 7 starts execution
+At time 42: Process 7 completes execution
+At time 42: Process 9 starts execution
+At time 44: Process 9 completes execution
+At time 44: Process 5 starts execution
+At time 46: Process 5 completes execution
+At time 46: Process 10 starts execution
+At time 50: Process 10 is preempted by process 7. Remaining processing time: 1
+At time 50: Process 7 starts execution
+At time 52: Process 7 completes execution
+At time 52: Process 5 starts execution
+At time 60: Process 5 is preempted by process 7. Remaining processing time: 6
+At time 60: Process 7 starts execution
+At time 62: Process 7 completes execution
+At time 62: Process 9 starts execution
+At time 64: Process 9 completes execution
+At time 64: Process 5 starts execution
+At time 70: Process 5 is preempted by process 7. Remaining processing time: 0
+At time 70: Process 7 starts execution
+At time 72: Process 7 completes execution
+At time 72: Process 5 starts execution
+At time 73: Process 5 completes execution
+At time 73: Process 10 had missed its deadline at time 60
+At time 73: Process 10 starts execution
+At time 75: Process 10 is preempted by process 5. Remaining processing time: 3
+At time 75: Process 5 starts execution
+At time 80: Process 5 is preempted by process 7. Remaining processing time: 10
+At time 80: Process 7 starts execution
+At time 82: Process 7 completes execution
+At time 82: Process 9 starts execution
+At time 84: Process 9 completes execution
+At time 84: Process 5 starts execution
+At time 90: Process 5 is preempted by process 7. Remaining processing time: 3
+At time 90: Process 7 starts execution
+At time 92: Process 7 completes execution
+At time 92: Process 5 starts execution
+At time 96: Process 5 completes execution
+At time 96: Process 10 had missed its deadline at time 30
+At time 96: Process 10 starts execution
+At time 100: Process 10 is preempted by process 9. Remaining processing time: 1
+At time 100: Process 9 starts execution
+At time 102: Process 9 completes execution
+At time 102: Process 5 starts execution
+At time 117: Process 5 completes execution
+At time 117: Process 10 starts execution
+At time 119: Process 10 completes execution
+At time 119: Process 10 had missed its deadline at time 90
+At time 119: Process 6 had missed its deadline at time 70
+At time 119: Process 6 starts execution
+At time 120: Process 6 is preempted by process 9. Remaining processing time: 23
+At time 120: Process 9 starts execution
+At time 122: Process 9 completes execution
+At time 122: Process 10 starts execution
+At time 125: Process 10 is preempted by process 5. Remaining processing time: 2
+At time 125: Process 5 starts execution
+At time 140: Process 5 completes execution
+At time 140: Process 9 starts execution
+At time 142: Process 9 completes execution
+At time 142: Process 10 starts execution
+At time 145: Process 10 completes execution
+At time 145: Process 6 starts execution
+At time 150: Process 6 is preempted by process 5. Remaining processing time: 20
+At time 150: Process 5 starts execution
+At time 160: Process 5 is preempted by process 9. Remaining processing time: 5
+At time 160: Process 9 starts execution
+At time 162: Process 9 completes execution
+At time 162: Process 5 starts execution
+At time 167: Process 5 completes execution
+At time 167: Process 10 starts execution
+At time 173: Process 10 completes execution
+At time 173: Process 6 had missed its deadline at time 105
+At time 173: Process 6 starts execution
+At time 175: Process 6 is preempted by process 5. Remaining processing time: 17
+At time 175: Process 5 starts execution
+At time 180: Process 5 is preempted by process 9. Remaining processing time: 10
+At time 180: Process 9 starts execution
+At time 182: Process 9 completes execution
+At time 182: Process 5 starts execution
+At time 192: Process 5 completes execution
+At time 192: Process 10 starts execution
+At time 198: Process 10 completes execution
+At time 198: Process 6 had missed its deadline at time 140
+At time 198: Process 6 starts execution
+At time 200: Process 6 is preempted by process 5. Remaining processing time: 22
+At time 200: Process 5 starts execution
+At time 215: Process 5 completes execution
+At time 215: Process 10 starts execution
+At time 221: Process 10 completes execution
+At time 221: Process 6 had missed its deadline at time 175
+At time 221: Process 6 had missed its deadline at time 210
+At time 221: Process 6 starts execution
+At time 225: Process 6 is preempted by process 5. Remaining processing time: 20
+At time 225: Process 5 starts execution
+At time 240: Process 5 completes execution
+At time 240: Process 10 starts execution
+At time 246: Process 10 completes execution
+At time 246: Process 6 had missed its deadline at time 35
+At time 246: Process 6 had missed its deadline at time 245
+At time 246: Process 6 starts execution
+At time 270: Process 6 is preempted by process 10. Remaining processing time: 0
+At time 270: Process 10 starts execution
+At time 276: Process 10 completes execution
+At time 276: Process 6 starts execution
+At time 277: Process 6 completes execution
+At time 277: Process 1 starts execution
+At time 280: Process 1 is preempted by process 6. Remaining processing time: 16
+At time 280: Process 6 starts execution
+At time 305: Process 6 completes execution
+At time 305: Process 1 had missed its deadline at time 100
+At time 305: Process 1 had missed its deadline at time 50
+At time 305: Process 1 had missed its deadline at time 250
+At time 305: Process 1 had missed its deadline at time 300
+At time 305: Process 1 starts execution
+At time 315: Process 1 is preempted by process 6. Remaining processing time: 10
+At time 315: Process 6 starts execution
+At time 340: Process 6 completes execution
+At time 340: Process 1 had missed its deadline at time 150
+At time 340: Process 1 starts execution
+At time 350: Process 1 completes execution
+At time 350: Process 1 had missed its deadline at time 200
+At time 350: Process 1 starts execution
+At time 370: Process 1 completes execution
+At time 370: Process 2 had missed its deadline at time 75
+At time 370: Process 2 had missed its deadline at time 225
+At time 370: Process 2 had missed its deadline at time 300
+At time 370: Process 2 starts execution
+At time 375: Process 2 had missed its deadline at time 375
+At time 375: Process 2 had missed its deadline at time 150
+At time 375: Process 2 starts execution
+At time 400: Process 2 is preempted by process 1. Remaining processing time: 10
+At time 400: Process 1 starts execution
+At time 420: Process 1 completes execution
+At time 420: Process 2 starts execution
+At time 430: Process 2 completes execution
+At time 430: Process 8 had missed its deadline at time 100
+At time 430: Process 3 had missed its deadline at time 300
+At time 430: Process 3 starts execution
+At time 450: Process 3 is preempted by process 1. Remaining processing time: 15
+At time 450: Process 1 starts execution
+At time 470: Process 1 completes execution
+At time 470: Process 2 starts execution
+At time 505: Process 2 completes execution
+At time 505: Process 3 had missed its deadline at time 100
+At time 505: Process 3 had missed its deadline at time 400
+At time 505: Process 8 had missed its deadline at time 400
+At time 505: Process 8 had missed its deadline at time 300
+At time 505: Process 3 starts execution
+At time 525: Process 3 is preempted by process 2. Remaining processing time: 15
+At time 525: Process 2 starts execution
+At time 560: Process 2 completes execution
+At time 560: Process 8 starts execution
+At time 600: Process 8 is preempted by process 2. Remaining processing time: 15
+At time 600: Process 2 starts execution
+At time 635: Process 2 completes execution
+At time 635: Process 3 had missed its deadline at time 500
+At time 635: Process 3 had missed its deadline at time 600
+At time 635: Process 8 had missed its deadline at time 600
+At time 635: Process 3 starts execution
+At time 670: Process 3 completes execution
+At time 670: Process 8 starts execution
+At time 675: Process 8 is preempted by process 2. Remaining processing time: 50
+At time 675: Process 2 starts execution
+At time 710: Process 2 completes execution
+At time 710: Process 8 had missed its deadline at time 500
+At time 710: Process 8 had missed its deadline at time 700
+At time 710: Process 8 starts execution
+At time 766: Process 8 completes execution
+At time 766: Process 8 had missed its deadline at time 200
+At time 766: Process 3 starts execution
+At time 800: Process 3 had missed its deadline at time 800
+At time 800: Process 3 had missed its deadline at time 200
+At time 800: Process 8 starts execution
+At time 856: Process 8 completes execution
+At time 856: Process 3 starts execution
+At time 891: Process 3 completes execution
+At time 891: Process 4 had missed its deadline at time 375
+At time 891: Process 4 had missed its deadline at time 125
+At time 891: Process 4 had missed its deadline at time 625
+At time 891: Process 4 starts execution
+At time 900: Process 4 is preempted by process 8. Remaining processing time: 0
+At time 900: Process 8 starts execution
+At time 956: Process 8 completes execution
+At time 956: Process 3 starts execution
+At time 991: Process 3 completes execution
+At time 991: Process 4 had missed its deadline at time 875
+At time 991: Process 4 had missed its deadline at time 250
+At time 991: Process 4 starts execution
+At time 992: Process 4 completes execution
+At time 992: Process 4 had missed its deadline at time 500
+At time 992: Process 4 had missed its deadline at time 750
+CPU waits until 1000
+At time 1000: Process 4 starts execution
+At time 1010: Process 4 completes execution
+CPU waits until 1125
+At time 1125: Process 4 starts execution
+At time 1135: Process 4 completes execution

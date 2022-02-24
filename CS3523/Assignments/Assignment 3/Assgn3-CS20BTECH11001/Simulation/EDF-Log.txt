@@ -1,0 +1,198 @@
+Process 1 : Processing time = 20; Deadline = 50; Period = 50; Repeats: 10 joined at time = 0
+Process 2 : Processing time = 35; Deadline = 75; Period = 75; Repeats: 10 joined at time = 0
+Process 3 : Processing time = 35; Deadline = 100; Period = 100; Repeats: 10 joined at time = 0
+Process 4 : Processing time = 10; Deadline = 125; Period = 125; Repeats: 10 joined at time = 0
+Process 5 : Processing time = 15; Deadline = 25; Period = 25; Repeats: 10 joined at time = 0
+Process 6 : Processing time = 25; Deadline = 35; Period = 35; Repeats: 10 joined at time = 0
+Process 7 : Processing time = 2; Deadline = 10; Period = 10; Repeats: 10 joined at time = 0
+Process 8 : Processing time = 56; Deadline = 100; Period = 100; Repeats: 10 joined at time = 0
+Process 9 : Processing time = 2; Deadline = 20; Period = 20; Repeats: 10 joined at time = 0
+Process 10 : Processing time = 6; Deadline = 30; Period = 30; Repeats: 10 joined at time = 0
+At time 0: Process 7 starts execution
+At time 2: Process 7 completes execution
+At time 2: Process 9 starts execution
+At time 4: Process 9 completes execution
+At time 4: Process 5 starts execution
+At time 10: Process 5 is preempted by process 7. Remaining processing time: 8
+At time 10: Process 7 starts execution
+At time 12: Process 7 completes execution
+At time 12: Process 5 starts execution
+At time 21: Process 5 completes execution
+At time 21: Process 10 starts execution
+At time 27: Process 10 completes execution
+At time 27: Process 7 starts execution
+At time 29: Process 7 completes execution
+At time 29: Process 6 starts execution
+At time 35: Process 6 had missed its deadline at time 35
+At time 35: Process 9 starts execution
+At time 37: Process 9 completes execution
+At time 37: Process 7 starts execution
+At time 39: Process 7 completes execution
+At time 39: Process 1 starts execution
+At time 50: Process 1 had missed its deadline at time 50
+At time 50: Process 5 starts execution
+At time 51: Process 5 had missed its deadline at time 50
+At time 51: Process 7 had missed its deadline at time 50
+At time 51: Process 10 starts execution
+At time 57: Process 10 completes execution
+At time 57: Process 9 starts execution
+At time 59: Process 9 completes execution
+At time 59: Process 7 starts execution
+At time 60: Process 7 had missed its deadline at time 60
+At time 60: Process 6 starts execution
+At time 70: Process 6 had missed its deadline at time 70
+At time 70: Process 7 starts execution
+At time 71: Process 7 had missed its deadline at time 70
+At time 71: Process 2 starts execution
+At time 75: Process 2 had missed its deadline at time 75
+At time 75: Process 5 starts execution
+At time 76: Process 5 had missed its deadline at time 75
+At time 76: Process 9 starts execution
+At time 78: Process 9 completes execution
+At time 78: Process 7 starts execution
+At time 80: Process 7 completes execution
+At time 80: Process 10 starts execution
+At time 86: Process 10 completes execution
+At time 86: Process 7 starts execution
+At time 88: Process 7 completes execution
+At time 88: Process 1 starts execution
+At time 100: Process 1 had missed its deadline at time 100
+At time 100: Process 8 starts execution
+At time 101: Process 8 had missed its deadline at time 100
+At time 101: Process 9 had missed its deadline at time 100
+At time 101: Process 7 had missed its deadline at time 100
+At time 101: Process 5 had missed its deadline at time 100
+At time 101: Process 3 had missed its deadline at time 100
+At time 101: Process 6 starts execution
+At time 105: Process 6 had missed its deadline at time 105
+At time 105: Process 10 starts execution
+At time 111: Process 10 completes execution
+At time 111: Process 9 starts execution
+At time 113: Process 9 completes execution
+At time 113: Process 4 starts execution
+At time 123: Process 4 completes execution
+At time 123: Process 5 starts execution
+At time 125: Process 5 had missed its deadline at time 125
+At time 125: Process 6 starts execution
+At time 140: Process 6 had missed its deadline at time 140
+At time 140: Process 9 starts execution
+At time 141: Process 9 had missed its deadline at time 140
+At time 141: Process 2 starts execution
+At time 150: Process 2 had missed its deadline at time 150
+At time 150: Process 5 starts execution
+At time 151: Process 5 had missed its deadline at time 150
+At time 151: Process 1 had missed its deadline at time 150
+At time 151: Process 10 had missed its deadline at time 150
+At time 151: Process 9 starts execution
+At time 153: Process 9 completes execution
+At time 153: Process 6 starts execution
+At time 175: Process 6 had missed its deadline at time 175
+At time 175: Process 5 starts execution
+At time 176: Process 5 had missed its deadline at time 175
+At time 176: Process 10 starts execution
+At time 180: Process 10 had missed its deadline at time 180
+At time 180: Process 9 starts execution
+At time 181: Process 9 had missed its deadline at time 180
+At time 181: Process 3 starts execution
+At time 200: Process 3 had missed its deadline at time 200
+At time 200: Process 5 starts execution
+At time 201: Process 5 had missed its deadline at time 200
+At time 201: Process 9 had missed its deadline at time 200
+At time 201: Process 1 had missed its deadline at time 200
+At time 201: Process 8 had missed its deadline at time 200
+At time 201: Process 6 starts execution
+At time 210: Process 6 had missed its deadline at time 210
+At time 210: Process 10 starts execution
+At time 211: Process 10 had missed its deadline at time 210
+At time 211: Process 5 starts execution
+At time 225: Process 5 had missed its deadline at time 225
+At time 225: Process 2 starts execution
+At time 226: Process 2 had missed its deadline at time 225
+At time 226: Process 10 starts execution
+At time 232: Process 10 completes execution
+At time 232: Process 6 starts execution
+At time 245: Process 6 had missed its deadline at time 245
+At time 245: Process 5 starts execution
+At time 250: Process 5 had missed its deadline at time 250
+At time 250: Process 4 starts execution
+At time 251: Process 4 had missed its deadline at time 250
+At time 251: Process 1 had missed its deadline at time 250
+At time 251: Process 10 starts execution
+At time 257: Process 10 completes execution
+At time 257: Process 6 starts execution
+At time 280: Process 6 had missed its deadline at time 280
+At time 280: Process 2 starts execution
+At time 300: Process 2 had missed its deadline at time 300
+At time 300: Process 1 starts execution
+At time 301: Process 1 had missed its deadline at time 300
+At time 301: Process 8 had missed its deadline at time 300
+At time 301: Process 3 had missed its deadline at time 300
+At time 301: Process 10 had missed its deadline at time 300
+At time 301: Process 6 starts execution
+At time 315: Process 6 had missed its deadline at time 315
+At time 315: Process 1 starts execution
+At time 335: Process 1 completes execution
+At time 335: Process 6 starts execution
+At time 350: Process 6 had missed its deadline at time 350
+At time 350: Process 4 starts execution
+At time 360: Process 4 completes execution
+At time 360: Process 2 starts execution
+At time 375: Process 2 had missed its deadline at time 375
+At time 375: Process 8 starts execution
+At time 400: Process 8 had missed its deadline at time 400
+At time 400: Process 1 starts execution
+At time 401: Process 1 had missed its deadline at time 400
+At time 401: Process 3 had missed its deadline at time 400
+At time 401: Process 2 starts execution
+At time 436: Process 2 completes execution
+At time 436: Process 1 starts execution
+At time 450: Process 1 had missed its deadline at time 450
+At time 450: Process 4 starts execution
+At time 460: Process 4 completes execution
+At time 460: Process 3 starts execution
+At time 495: Process 3 completes execution
+At time 495: Process 1 starts execution
+At time 500: Process 1 had missed its deadline at time 500
+At time 500: Process 8 starts execution
+At time 501: Process 8 had missed its deadline at time 500
+At time 501: Process 2 starts execution
+At time 525: Process 2 had missed its deadline at time 525
+At time 525: Process 3 starts execution
+At time 560: Process 3 completes execution
+At time 560: Process 2 starts execution
+At time 595: Process 2 completes execution
+At time 595: Process 8 starts execution
+At time 600: Process 8 had missed its deadline at time 600
+At time 600: Process 4 starts execution
+At time 610: Process 4 completes execution
+At time 610: Process 2 starts execution
+At time 645: Process 2 completes execution
+At time 645: Process 3 starts execution
+At time 680: Process 3 completes execution
+At time 680: Process 8 starts execution
+At time 700: Process 8 had missed its deadline at time 700
+At time 700: Process 4 starts execution
+At time 710: Process 4 completes execution
+At time 710: Process 2 starts execution
+At time 745: Process 2 completes execution
+At time 745: Process 3 starts execution
+At time 780: Process 3 completes execution
+At time 780: Process 8 starts execution
+At time 800: Process 8 had missed its deadline at time 800
+At time 800: Process 4 starts execution
+At time 810: Process 4 completes execution
+At time 810: Process 8 starts execution
+At time 866: Process 8 completes execution
+At time 866: Process 3 starts execution
+At time 900: Process 3 had missed its deadline at time 900
+At time 900: Process 4 starts execution
+At time 910: Process 4 completes execution
+At time 910: Process 8 starts execution
+At time 966: Process 8 completes execution
+At time 966: Process 3 starts execution
+At time 1000: Process 3 had missed its deadline at time 1000
+At time 1000: Process 4 starts execution
+At time 1010: Process 4 completes execution
+CPU waits until 1125
+At time 1125: Process 4 starts execution
+At time 1135: Process 4 completes execution

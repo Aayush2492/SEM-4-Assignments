@@ -1,0 +1,20 @@
+Process 1 : Processing time = 2000; Deadline = 8000; Period = 8000; Repeats: 50 joined at time = 0
+Process 2 : Processing time = 3000; Deadline = 5000; Period = 5000; Repeats: 40 joined at time = 0
+Process 3 : Processing time = 2500; Deadline = 6000; Period = 6000; Repeats: 50 joined at time = 0
+At time 0.000000: Process 2 starts execution
+At time 0.000000: Process 2 completes execution
+At time 0.000000: Process 3 starts execution
+At time 0.000000: Process 3 completes execution
+At time 0.000000: Process 1 starts execution
+At time 0.000000: Process 1 completes execution
+CPU waits until 500000
+At time 0.000000: Process 2 starts execution
+At time 0.000000: Process 2 completes execution
+CPU waits until 600000
+At time 0.000000: Process 3 starts execution
+At time 0.000000: Process 3 completes execution
+CPU waits until 800000
+At time 0.000000: Process 1 starts execution
+At time 0.000000: Process 1 completes execution
+CPU waits until 1000000
+At time 0.000000: Process 2 starts execution

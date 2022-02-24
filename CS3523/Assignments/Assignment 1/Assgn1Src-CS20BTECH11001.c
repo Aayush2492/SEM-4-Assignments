@@ -10,7 +10,7 @@
 
 #define MAX_LINE_LENGTH 10000
 
-bool useFileReading = true;
+bool useFileReading = false;
 
 typedef struct parameters
 {
